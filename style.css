@@ -57,11 +57,12 @@ li.task-item {
 .material-symbols-outlined {
     font-variation-settings: 'wght' 300, 'opsz' 16;
     background-color: white;
+    color: darkgrey;
     border: 0px;
     margin-left: 5px;
     padding: 0px;
     float: right;
 }
 .material-symbols-outlined:hover {
-    color: red;
+    color: black;
 }

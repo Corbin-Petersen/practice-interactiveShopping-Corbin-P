@@ -20,17 +20,25 @@ ul {
     list-style-type: none;
     padding: 0px;
 }
-li {
-    opacity: 0;
-}
-li.task-item {
+.task-item {
     font-size: large;
     border: 1px solid rgb(219, 219, 219);
     border-radius: 4px;
     padding: 5px;
     margin: 10px 5px;
-    transition: opacity 0.5s linear;
-    opacity: 1;
+}
+.task-item span {
+    width: 95%;
+    float: left;
+    margin-top: 3px;
+}
+.task-item input {
+    width: 94%;
+    float: left;
+    margin-top: 5px;
+    font-size: 16px;
+    color: blue;
+    border: none;
 }
 #submit-field {
     font-size: medium;
@@ -61,7 +69,7 @@ li.task-item {
     border: 0px;
     margin-left: 5px;
     padding: 0px;
-    float: right;
+    width: 2%;
 }
 .material-symbols-outlined:hover {
     color: black;
